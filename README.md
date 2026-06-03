@@ -9,3 +9,8 @@ Step:
 Its function: Sets the app's theme (dominant colors, fonts), manages page routing, and provides basic navigation configuration.
 
 An analogy: If an app were a country, then MaterialApp would be its laws and underlying systems.
+6.A scaffold is a widget that provides the basic visual structure or framework for a page.
+
+Function: Provides space for standard application components such as the appBar (top bar), body (main content), floatingActionButton (floating button in the bottom corner), and drawer (side menu).
+
+An analogy: If an application page were a house, then the scaffold would be the foundation, walls, and roof.
