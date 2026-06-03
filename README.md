@@ -58,3 +58,5 @@ Usefulness: Displays all command-line messages, system logs, and error messages 
 Find the DevTools URL printed in the terminal where your app is running (for example: Serving DevTools at http://127.0.0.1:9101).
 Copy this URL.
 Paste it into the connect bar in the DevTools browser page.
+
+flutter --empty if you want clean project,in building 
