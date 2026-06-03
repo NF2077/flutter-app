@@ -64,3 +64,7 @@ flutter --empty if you want clean project,in building
 Optional : This project uses the cupertino_icons package, an official Flutter package. Add it as a dependency by running the following command:
 
 flutter pub add cupertino_icons
+
+How Flutter Works" dives deep into the State class, a critical piece behind every StatefulWidget. Follow the full lifecycle of a State object—from initState, where you initialize resources, to dispose, where you clean up. Along the way, explore important methods including didChangeDependencies, didUpdateWidget, and the all-important build method. By the end of the episode, you'll understand how State objects track, respond to, and manage changes in your Flutter apps—and how the State lifecycle enables efficient UI updates.
+
+This episode also peels back the curtain on how Flutter recurses down the widget tree after a setState call, building out only the parts of your app that need to change. You'll learn why const constructors matter for performance, why setState closures must be synchronous, and how elements (not widgets themselves) manage the actual rebuild process. If you're curious how Flutter keeps apps fast and responsive, or you just want to really understand what happens behind the scenes, this episode is packed with the essential foundations.
