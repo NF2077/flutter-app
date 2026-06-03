@@ -14,3 +14,13 @@ An analogy: If an app were a country, then MaterialApp would be its laws and und
 Function: Provides space for standard application components such as the appBar (top bar), body (main content), floatingActionButton (floating button in the bottom corner), and drawer (side menu).
 
 An analogy: If an application page were a house, then the scaffold would be the foundation, walls, and roof.
+7.Center is a very simple yet important layout widget.
+
+Its function: Forces its child widgets to be positioned exactly in the middle of the available space (vertically and horizontally).
+
+An analogy: It's like an assistant shifting a display to fit perfectly in the center of a table.
+8.Text is a widget used to display strings or text on the screen.
+
+Function: Displays text and adjusts its style, such as font size, color, boldness (bold/italic), and font type.
+
+Analogy: Like a sign or sign hanging inside a house.
