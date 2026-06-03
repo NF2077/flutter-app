@@ -60,3 +60,7 @@ Copy this URL.
 Paste it into the connect bar in the DevTools browser page.
 
 flutter --empty if you want clean project,in building 
+
+Optional : This project uses the cupertino_icons package, an official Flutter package. Add it as a dependency by running the following command:
+
+flutter pub add cupertino_icons
