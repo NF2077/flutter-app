@@ -54,3 +54,7 @@ Use: If your application retrieves data from the internet (API), this tab will d
 
 6. Logging (Error Log)
 Usefulness: Displays all command-line messages, system logs, and error messages (such as print or debugPrint that you write in your code) in a neat and structured manner.
+
+Find the DevTools URL printed in the terminal where your app is running (for example: Serving DevTools at http://127.0.0.1:9101).
+Copy this URL.
+Paste it into the connect bar in the DevTools browser page.
