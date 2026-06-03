@@ -24,3 +24,33 @@ An analogy: It's like an assistant shifting a display to fit perfectly in the ce
 Function: Displays text and adjusts its style, such as font size, color, boldness (bold/italic), and font type.
 
 Analogy: Like a sign or sign hanging inside a house.
+9. flutter run -d chrome
+The app will build and launch in a new instance of Chrome.
+flutter run: The main command for running the Flutter application you are developing.
+
+-d: Short for Device. This indicates that you want to select a specific device to display the application.
+
+chrome: The selected target device, which is the Google Chrome browser (Web).
+
+dart devtools
+Running this command starts the DevTools server and opens the interface in a browser.
+When the app opens in a browser, you'll be presented with a wealth of powerful tools for analyzing your app. Here are its main features:
+1. Flutter Inspector (View UI Structure)
+This tool is used to visually view the widget tree.
+
+Usefulness: If your app looks cluttered, you can click on any part of the screen, and DevTools will tell you what widget it is, its size, and why it's positioned there. You can also enable Toggle Select Widget Mode to point directly to the UI in your app.
+
+2. Performance View (Check Application Smoothness)
+Use: Monitor whether your application is running smoothly (e.g., stable at 60 FPS or 120 FPS). If your application is lagging or janky, this tool will detect which lines of code are causing performance degradation.
+
+3. CPU Profiler (View Processor Workload)
+Use: Shows which functions or activities are consuming the most CPU power on your computer or phone when the application is running.
+
+4. Memory View (Track RAM Usage)
+Use: Monitor how much memory (RAM) your application is consuming. This is crucial for detecting memory leaks (a condition where an application continuously consumes RAM and refuses to release it, which can cause the user's phone to slow down or crash).
+
+5. Network Tab (Monitor Internet Traffic)
+Use: If your application retrieves data from the internet (API), this tab will display all incoming and outgoing requests and responses. You can see whether the sent data is correct or if there are any errors (such as Error 404 or 500).
+
+6. Logging (Error Log)
+Usefulness: Displays all command-line messages, system logs, and error messages (such as print or debugPrint that you write in your code) in a neat and structured manner.
