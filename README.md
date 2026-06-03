@@ -1,1 +1,6 @@
 # flutter-app
+Step:
+1. flutter create Tracker_app
+2. cd Tracker_app
+3. in your directory. lib/main.dart. The main function is the entry point to any Dart program, and a Flutter app is just a Dart program. The runApp method is part of the Flutter SDK, and it takes a widget as an argument. In this case, an instance of the MainApp widget is being passed in.
+4. MainApp is the root widget, as it's the widget that's passed into runApp. Within this widget, there's a build method that returns another widget called MaterialApp. Essentially, this is what a Flutter app is: a composition of widgets that make up a tree structure called the widget tree.
